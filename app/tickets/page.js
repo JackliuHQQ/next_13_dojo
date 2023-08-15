@@ -1,7 +1,12 @@
 import React from 'react';
+import TicketList from './TicketList';
 
 const Tickets = () => {
-  return <div>Tickets123</div>;
+  return (
+    <div>
+      <TicketList />
+    </div>
+  );
 };
 
 export default Tickets;
